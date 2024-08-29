@@ -141,15 +141,18 @@ function App() {
           {loading ? (
             "Generating..."
           ) : (
-            <img src={listen} alt="listen-logo" className="w-[120px]" />
+            <img src={gen} alt="listen-logo" className="w-[120px]" />
           )}
         </button>
         <button onClick={handleListen} disabled={loading}>
           {loading ? (
             "Captioning AI"
           ) : (
-            <img src={gen} alt="listen-logo" className="w-[120px]" />
+            <img src={listen} alt="listen-logo" className="w-[120px]" />
           )}
+        </button>
+        <button disabled={loading}>
+            <img src={gen} alt="listen-logo" className="w-[120px]" />
         </button>
       </div>
       <div className="flex items-center justify-center">
