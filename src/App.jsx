@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
-import logo from "./assets/transparent/Logo-with-name.png";
+import logo from "./assets/transparent/Logo.png";
 import listen from "./assets/transparent/Listen.png";
 import gen from "./assets/transparent/gen.png";
 import flash from "./assets/transparent/Flash.png";
