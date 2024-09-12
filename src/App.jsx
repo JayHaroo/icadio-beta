@@ -69,7 +69,7 @@ function App() {
     formData.append("image", imageBlob, "webcam_image.jpg");
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/caption", {
+      const response = await fetch("http://icadio-beta.vercel.app/api/caption", {
         method: "POST",
         body: formData,
       });
